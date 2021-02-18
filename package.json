@@ -1,7 +1,7 @@
 {
-  "name": "js-collections",
+  "name": "practice-algorithms",
   "version": "1.0.0",
-  "description": "Study project for arrays, objects etc...",
+  "description": "Repositories for learning algorithms and their properties",
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node",
