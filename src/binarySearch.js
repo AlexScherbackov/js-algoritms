@@ -5,9 +5,7 @@ export default (arr, value) => {
     }
 
     const mid = (low + high) / 2;
-    const index = (mid ^ 0) === mid
-      ? mid
-      : Math.floor(mid);
+    const index = Math.trunc(mid);
     const quess = arr[index];
     const newRange = value >= quess ? [index + 1, high] : [low, index - 1];
 
